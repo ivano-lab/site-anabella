@@ -4,6 +4,7 @@ Este site foi criado para demonstrar as capacidades e projetos relacionados
 ao desenvolvimento web. 
 
 > Utilização das tags figure e figcaption;
+
 > Utilização da propriedade css hover;
 
 
