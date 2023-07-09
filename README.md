@@ -4,7 +4,8 @@ Este site foi criado para demonstrar as capacidades e projetos relacionados
 ao desenvolvimento web. 
 
 > Utilização das tags figure e figcaption;
-> Uilização da propriedade css hover;
+> Utilização da propriedade css hover;
+
 
 <img src="imagens/Site-Anna_Bella.gif">
 
