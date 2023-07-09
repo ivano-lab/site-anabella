@@ -1,0 +1,145 @@
+body {
+    background-color: #d2d2c1;
+    background-image: url("imagens/fundo.png");
+    margin: 0 auto 15px;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;    
+}
+
+a {
+    text-decoration: none;
+    color: #4b566a;
+    font-weight: bold;
+    padding: 10px;
+}
+
+h1 {
+    color: #828271;
+    font-size: 1.2em;
+}
+
+a:hover {
+    background-color: #383c44;
+    color: #fff;
+    padding: 10px;
+}
+
+#conteudo {
+    background-color: #e8e8d9;
+    padding: 10px;
+}
+
+.principal {
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.menu {
+    background-color: #c5c5b2;
+    padding: 18px;
+    text-align: center;
+}
+
+.box-imagens {
+    text-align: center;
+}
+
+.img-campanha {
+    border: 10px solid #c3c3ae;
+    max-width: 100%;
+    height: auto;
+}
+
+.rodape {
+    text-align: center;
+}
+
+.principal {
+    max-width: 100%;
+    padding: 0 20px;
+    margin: 0 auto;
+}
+
+.menu {
+    text-align: center;
+}
+
+#conteudo {
+    margin: 20px 0;
+}
+
+.header-image {
+    max-width: 100%;
+    height: auto;
+}
+
+.menu-toggle {
+    display: none;
+}
+
+.menu-toggle-label {
+    display: none;
+}
+
+.menu-toggle-checkbox {
+    display: none;
+}
+
+.menu-toggle-checkbox:checked ~ .menu-toggle-content {
+    display: block;
+    margin-top: 10px;
+}
+
+.menu-toggle-content {
+    display: none;
+}
+
+.menu-toggle-content ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.menu-toggle-content li {
+    margin-bottom: 10px;
+}
+
+.menu-toggle-content a {
+    display: block;
+    padding: 5px;
+}
+
+@media screen and (max-width: 768px) {
+    .menu {
+        display: none;
+    }
+
+    .menu-toggle {
+        display: block;
+        text-align: right;
+        margin: 10px;
+    }
+
+    .menu-toggle-label {
+        display: block;
+        cursor: pointer;
+        padding: 10px;
+    }
+
+    .menu-toggle-icon {
+        width: 25px;
+        height: 3px;
+        background-color: #000;
+        margin-bottom: 5px;
+        transition: background-color 0.3s ease;
+    }
+
+    .menu-toggle-checkbox:checked ~ .menu-toggle-label .menu-toggle-icon {
+        background-color: transparent;
+    }
+
+    .menu-toggle-content {
+        margin-top: 10px;
+    }
+}
